@@ -38,15 +38,15 @@ ar = malloc(totSize *sizeof(char));
 if (ar == NULL)
 return (NULL);
 else
-    {
+{
 for (i = 0; i < size1; i++)
 ar[i] = s1[i];
 for (j = 0; j < size2; j++)
-	{
+{
 ar[i] = s2[j];
 i++;
-	}
+}
 ar[i + 1] = '\0';
 return (ar);
-    }
+}
 }
