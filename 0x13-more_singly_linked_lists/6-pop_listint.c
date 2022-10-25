@@ -13,7 +13,7 @@ int hnode;
 listint_t *h;
 listint_t *curr;
 
-if (*head == NULL
+if (*head == NULL)
 return (0);
 
 curr = *head;
